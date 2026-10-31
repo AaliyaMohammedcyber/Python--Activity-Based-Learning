@@ -35,8 +35,3 @@ Enter your Answers: A C B D
 Exam Score: 16
 ```
 
-
-
-Completed
-
-&#x20;All six sections are included with a short Mermaid flowchart.
