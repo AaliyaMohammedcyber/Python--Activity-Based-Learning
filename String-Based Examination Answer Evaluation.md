@@ -17,12 +17,12 @@ Write a Python program to evaluate a student's examination answers by comparing 
 
 ### 3. Flowchart
 ```mermaid
+flowchart TD
     A([Start]) --> B[/Enter answers/]
     B --> C[Calculate score]
     C --> D[/Display score/]
     D --> E([Stop])
 ```
-
 ### 4. Sample Input
 
 ```
