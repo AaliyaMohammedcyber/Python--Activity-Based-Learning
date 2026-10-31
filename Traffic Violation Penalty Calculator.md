@@ -21,14 +21,12 @@ Write a Python program to calculate the traffic violation fine based on the vehi
 
 ### 3.Flowchart
 ```mermaid
-    A([Start]) --> B[/Enter vehicle and offense/]
-    B --> C{Car and speeding?}
-    C -->|Yes| D[Fine = 100]
-    C -->|No| E[Check other conditions]
-    E --> F[Assign fine: 150, 50 or 80]
-    D --> G[/Display Fine/]
-    F --> G
-    G --> H([Stop])
+  flowchart TD
+    A([Start]) --> B[Initialize answer key and score]
+    B --> C[/Enter student answers/]
+    C --> D[Compare answers and calculate score]
+    D --> E[/Display exam score/]
+    E --> F([Stop])
 ```
 ### 4. Sample Input
 
